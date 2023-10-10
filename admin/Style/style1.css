@@ -1,0 +1,23 @@
+form{
+width: 400px;
+height: 550px;
+background-color: bisque;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+margin-bottom: 150px;
+}
+form img{
+    width: 200px;
+    margin: 0 auto;
+}
+label{
+font-size: 25px;
+font-weight: bold;
+margin: 15px 10px;
+}
+form p{
+font-size: 25px;
+font-weight: bold;
+margin-left: 10px;
+}

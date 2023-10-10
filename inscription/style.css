@@ -1,0 +1,80 @@
+*{
+padding: 0;
+margin: 0;
+scroll-behavior: smooth;
+text-decoration: none;
+text-transform: capitalize;
+box-sizing: border-box;
+list-style-type: none;
+font-family: "Quicksand","Open Sans";
+overflow-y: hidden;
+}
+body{
+height:100vh;
+background-image: linear-gradient(rgba(255,255,255,0.5),#000),url("im2.jpg");
+background-size: cover;
+background-position: center;
+}
+form{
+width: 400px;
+height: 675px;
+background-color: white;
+border-radius: 30px;
+margin: 20px auto;
+text-align: center;
+}
+.titre{
+width: 100%;
+height: 70px;
+background-color:#5C3317;
+border-radius: 30px 30px 0 0;
+color: white;
+text-align: center;
+}
+.titre h2{
+font-size: 30px;
+font-weight: bold;
+transform: translateY(30%);
+}
+form .text{
+width: 80%;
+padding: 15px;
+display: block;
+margin: 10px auto;
+border-radius: 30px;
+border: 1px solid grey;
+}
+form .btn{
+width: 40%;
+padding: 15px;
+display: block;
+margin: 10px auto;
+border-radius: 30px;
+background-color: #5C3317;
+color: white;
+font-size: 20px;
+font-weight: bold;
+border: none;
+}
+label{
+display:block;
+margin-bottom: 8px;
+}
+.file{
+margin: 10px auto;
+transform: translateX(15%);
+}
+.select{
+margin-bottom: 10px;
+}
+.error{
+color: red;
+font-weight: bold;
+}
+form .btn:hover{
+transform:scale(1.2);
+transition: 0.5s;
+}
+.buttons{
+    display: flex;
+}

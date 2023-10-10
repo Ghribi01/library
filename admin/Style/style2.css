@@ -1,0 +1,50 @@
+body{
+width: 100%;
+height: 100%;
+}
+
+.mcontainer{
+width: 500px;
+height: 300px;
+border-radius: 20px;
+background-color: white;
+margin: 20px auto;
+text-align: center;
+}
+.mcontainer h2{
+font-family: 'Quicksand','Open sans';
+margin-bottom: 20px;
+}
+.messagee{
+width: 100%;
+height: 150px;
+background-color: grey;
+display: flex;
+flex-direction: column;
+}
+.messagee input{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+.messagee p{
+font-weight: bold;
+font-size: 20px;
+font-family: 'Quicksand','Open sans';
+}
+.btn{
+padding: 10px 25px;
+background-color: grey;
+border: none;
+border-radius: 10px;
+font-weight: bold;
+color: white;
+margin: 20px auto;
+font-family: 'Quicksand','Open sans';
+}
+.btn:hover{
+transform: scale(1.2);
+transition: 0.5s;
+}
